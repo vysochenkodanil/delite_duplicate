@@ -8,7 +8,6 @@ def main(a, b):
 if __name__ == '__main__':
     a = int(input())
     b = list(map(int, input().split()))
-
     
     result = main(a, b)
     print(' '.join(map(str, result)))
